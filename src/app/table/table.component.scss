@@ -1,0 +1,19 @@
+:host {
+    tr:hover button.edit {
+        display: inline;
+    }
+
+    tr button.edit {
+        display: none;
+    }
+
+    input[ng-reflect-readonly="false"] {
+        margin: 2px;
+        background-color: rgba(0, 0, 0, .1);
+        padding: 10px 5px;
+    }
+
+    mat-form-field.mat-form-field {
+        padding: 15px;
+    }
+}

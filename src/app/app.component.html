@@ -1,0 +1,11 @@
+
+<div *ngIf="!(service.addressList | async)" class="loading">
+	<mat-spinner></mat-spinner>
+</div>
+<ul>
+	<li>Click on a cell to EDIT.</li>
+	<li> Hit ENTER to save it.</li>
+	<li> POST is outputed in the console</li>
+</ul>
+
+<app-table *ngIf="service.addressList | async"></app-table>
